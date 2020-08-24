@@ -1,0 +1,14 @@
+Ok, so just the commands to make everything work:
+
+To migrate the tables
+bin/console doctrine:migrations:migrate
+
+To load everything into the database
+bin/console doctrine:fixtures:load
+
+ROUTES:
+#for overtime
+http://127.0.0.1:4000/hotel/overtime/?hotel=1&since=2018-08-24&until=2018-09-21
+
+#for benchmark
+http://127.0.0.1:4000/hotel/benchmark/?hotel=6&since=2018-08-24&until=2018-09-28
