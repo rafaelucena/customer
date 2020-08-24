@@ -6,6 +6,9 @@ bin/console doctrine:migrations:migrate
 To load everything into the database
 bin/console doctrine:fixtures:load
 
+To test the unit tests available
+bin/phpunit
+
 ROUTES:
 #for overtime
 http://127.0.0.1:4000/hotel/overtime/?hotel=1&since=2018-08-24&until=2018-09-21
